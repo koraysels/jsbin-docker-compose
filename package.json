@@ -23,7 +23,7 @@
     "test": "node_modules/mocha/bin/_mocha -t 25000 --ui bdd test/unit/**/*.test.js",
     "build": "grunt build",
     ":install": "build/install.js",
-    "postinstall": "grunt build",
+    "gruntbuild": "grunt build",
     "// disabled": " && npm run selenium:install",
     "postversion": "git push origin master && git push --tags origin master",
     "_preupdate": "node build/pre-update.js",
